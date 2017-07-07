@@ -1,0 +1,18 @@
+{application, digraph_viz,
+ [{description, "Export/show erlang digraphs with graphviz"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules,
+   [
+    digraph_viz
+   ]},
+
+  {maintainers, ["Jean-Alexandre Barszcz (jalex_b@hotmail.com)"]},
+  {licenses, ["MIT"]},
+  {links, []}
+ ]}.
