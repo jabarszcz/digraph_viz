@@ -1,6 +1,6 @@
 {application, digraph_viz,
  [{description, "Export/show erlang digraphs with graphviz"},
-  {vsn, "0.1.0"},
+  {vsn, "1.0.0"},
   {registered, []},
   {applications,
    [kernel,
