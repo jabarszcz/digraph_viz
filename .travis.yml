@@ -1,0 +1,10 @@
+language: erlang
+addons:
+  apt:
+    packages:
+    - graphviz
+script: make test
+otp_release:
+   - 20.1
+   - 20.0
+   - 19.3
